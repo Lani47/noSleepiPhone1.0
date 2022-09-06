@@ -149,7 +149,7 @@ final class MotionManager {
     }
     
     func stopQueuedUpdates() {
-        
+        count = 0
         print("stop")
         self.motion.stopDeviceMotionUpdates()
         self.motion.stopAccelerometerUpdates()

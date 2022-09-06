@@ -18,7 +18,7 @@ struct ContentView: View {
     
     @State var buttonText = "開始する"
     
-    @State var textText = "ここにどれくらい画面を傾けて操作していたかを表示します"
+    @State var textText = "このアプリはスマホをどれくらい寝ながら操作していたかを表示します\nバックグラウンドで動くので、開始するを押してホームに戻って使うといいでしょう。\n結果はこのアプリの画面に戻ると分かります。\n寝ながらスマホを操作をすると目に悪いそうなので気をつけましょう。"
         
         //①通知関係のメソッド作成
         func makeNotification(){
@@ -121,6 +121,7 @@ struct ContentView: View {
                 if flag {
                     print(phase)
                     textText = "あなたは\(motionManager.count)秒画面を傾けていましたね。寝ながらスマホを操作するのは目に悪いです。"
+                    motionManager.count = 0
                     
                 } else {
                     print("開始されていません。")
