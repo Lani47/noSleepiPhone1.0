@@ -11,6 +11,7 @@
 		7F2E83B828C6E8CD007E7DEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E83B728C6E8CD007E7DEF /* ContentView.swift */; };
 		7F2E83BA28C6E8D4007E7DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E83B928C6E8D4007E7DEF /* Assets.xcassets */; };
 		7F2E83BD28C6E8D4007E7DEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E83BC28C6E8D4007E7DEF /* Preview Assets.xcassets */; };
+		7F2E83C428C6E901007E7DEF /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E83C328C6E901007E7DEF /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7F2E83B728C6E8CD007E7DEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F2E83B928C6E8D4007E7DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F2E83BC28C6E8D4007E7DEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F2E83C328C6E901007E7DEF /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7F2E83B528C6E8CD007E7DEF /* noSleepiPhoneApp.swift */,
 				7F2E83B728C6E8CD007E7DEF /* ContentView.swift */,
+				7F2E83C328C6E901007E7DEF /* MotionManager.swift */,
 				7F2E83B928C6E8D4007E7DEF /* Assets.xcassets */,
 				7F2E83BB28C6E8D4007E7DEF /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F2E83B828C6E8CD007E7DEF /* ContentView.swift in Sources */,
+				7F2E83C428C6E901007E7DEF /* MotionManager.swift in Sources */,
 				7F2E83B628C6E8CD007E7DEF /* noSleepiPhoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
