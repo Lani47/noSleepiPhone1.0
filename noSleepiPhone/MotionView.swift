@@ -19,7 +19,7 @@ struct MotionView: View {
     
     @State var buttonText = "開始する"
     
-    @State var textText = "このアプリはスマホをどれくらい寝ながら操作していたかを表示します\nバックグラウンドで動くので、開始するを押してホームに戻って使うといいでしょう。\n結果はこのアプリの画面に戻ると分かります。\n寝ながらスマホを操作をすると目に悪いそうなので気をつけましょう。"
+    @State var textText = ""
         
         //①通知関係のメソッド作成
         func makeNotification(){
