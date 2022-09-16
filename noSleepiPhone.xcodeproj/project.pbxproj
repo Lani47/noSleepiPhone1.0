@@ -13,6 +13,12 @@
 		7F2E83BD28C6E8D4007E7DEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E83BC28C6E8D4007E7DEF /* Preview Assets.xcassets */; };
 		7F2E83C428C6E901007E7DEF /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E83C328C6E901007E7DEF /* MotionManager.swift */; };
 		7F2E83D128C6F36B007E7DEF /* MotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E83D028C6F36B007E7DEF /* MotionView.swift */; };
+		7FE7AE8128D4182C00707FE6 /* OnboardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7AE8028D4182C00707FE6 /* OnboardingDataModel.swift */; };
+		7FE7AE8328D4185100707FE6 /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7AE8228D4185100707FE6 /* OnboardingStepView.swift */; };
+		7FE7AE8528D4187500707FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7AE8428D4187500707FE6 /* AppDelegate.swift */; };
+		7FE7AE8728D4188100707FE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7AE8628D4188100707FE6 /* SceneDelegate.swift */; };
+		7FE7AE8928D418A200707FE6 /* OnboardingViewPure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE7AE8828D418A200707FE6 /* OnboardingViewPure.swift */; };
+		7FE7AE8B28D418EA00707FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE7AE8A28D418EA00707FE6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +29,12 @@
 		7F2E83BC28C6E8D4007E7DEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F2E83C328C6E901007E7DEF /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 		7F2E83D028C6F36B007E7DEF /* MotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionView.swift; sourceTree = "<group>"; };
+		7FE7AE8028D4182C00707FE6 /* OnboardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDataModel.swift; sourceTree = "<group>"; };
+		7FE7AE8228D4185100707FE6 /* OnboardingStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		7FE7AE8428D4187500707FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FE7AE8628D4188100707FE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FE7AE8828D418A200707FE6 /* OnboardingViewPure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPure.swift; sourceTree = "<group>"; };
+		7FE7AE8A28D418EA00707FE6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 				7F2E83D028C6F36B007E7DEF /* MotionView.swift */,
 				7F2E83C328C6E901007E7DEF /* MotionManager.swift */,
 				7F2E83B928C6E8D4007E7DEF /* Assets.xcassets */,
+				7FE7AE7F28D417FD00707FE6 /* onBoarding */,
 				7F2E83BB28C6E8D4007E7DEF /* Preview Content */,
 			);
 			path = noSleepiPhone;
@@ -71,6 +84,19 @@
 				7F2E83BC28C6E8D4007E7DEF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FE7AE7F28D417FD00707FE6 /* onBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				7FE7AE8028D4182C00707FE6 /* OnboardingDataModel.swift */,
+				7FE7AE8228D4185100707FE6 /* OnboardingStepView.swift */,
+				7FE7AE8A28D418EA00707FE6 /* LaunchScreen.storyboard */,
+				7FE7AE8428D4187500707FE6 /* AppDelegate.swift */,
+				7FE7AE8628D4188100707FE6 /* SceneDelegate.swift */,
+				7FE7AE8828D418A200707FE6 /* OnboardingViewPure.swift */,
+			);
+			path = onBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE7AE8B28D418EA00707FE6 /* LaunchScreen.storyboard in Resources */,
 				7F2E83BD28C6E8D4007E7DEF /* Preview Assets.xcassets in Resources */,
 				7F2E83BA28C6E8D4007E7DEF /* Assets.xcassets in Resources */,
 			);
@@ -146,7 +173,12 @@
 				7F2E83D128C6F36B007E7DEF /* MotionView.swift in Sources */,
 				7F2E83B828C6E8CD007E7DEF /* ContentView.swift in Sources */,
 				7F2E83C428C6E901007E7DEF /* MotionManager.swift in Sources */,
+				7FE7AE8328D4185100707FE6 /* OnboardingStepView.swift in Sources */,
+				7FE7AE8528D4187500707FE6 /* AppDelegate.swift in Sources */,
+				7FE7AE8128D4182C00707FE6 /* OnboardingDataModel.swift in Sources */,
 				7F2E83B628C6E8CD007E7DEF /* noSleepiPhoneApp.swift in Sources */,
+				7FE7AE8928D418A200707FE6 /* OnboardingViewPure.swift in Sources */,
+				7FE7AE8728D4188100707FE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
